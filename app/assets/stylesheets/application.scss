@@ -1,0 +1,30 @@
+@import 'bootstrap';
+
+* {
+    box-sizing: border-box;
+  }
+ 
+  html, body {
+    height: 100%;
+    background-color: #ffff;
+  }
+
+  .page-container {
+    position: relative;
+    min-height: 100vh;
+ }
+ 
+ .content-wrap {
+    padding-bottom: 2.5rem;
+ }
+ 
+ .home-container {
+    background-image: url("https://images.unsplash.com/photo-1516528387618-afa90b13e000?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+ }
+
+ .show-image {
+   display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+ }
